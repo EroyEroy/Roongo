@@ -644,12 +644,10 @@ html{
 	.highlight-v4{
 		max-width: calc(150px + (619.23 - 150) * ((100vw - 320px) / (1919 - 320)));
 		height: calc(150px + (358.46 - 150) * ((100vw - 320px) / (1919 - 320)));
-		filter: blur(calc(100px + (150 - 100) * ((100vw - 320px) / (1919 - 320))));
 	}
 	.highlight-v5{
 		max-width: calc(150px + (250.28 - 150) * ((100vw - 320px) / (1919 - 320)));
 		height: calc(50px + (105.93 - 150) * ((100vw - 320px) / (1919 - 320)));
-		filter: blur(calc(100px + (150 - 100) * ((100vw - 320px) / (1919 - 320))));
 	}
 	.news__img{
 		margin-left: calc(0px + (54 - 0) * ((100vw - 320px) / (1919 - 320)));

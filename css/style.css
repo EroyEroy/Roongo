@@ -865,15 +865,11 @@ html {
   .highlight-v4 {
     max-width: calc(150px + 469.23 * (100vw - 320px) / 1599);
     height: calc(150px + 208.46 * (100vw - 320px) / 1599);
-    -webkit-filter: blur(calc(100px + 50 * (100vw - 320px) / 1599));
-            filter: blur(calc(100px + 50 * (100vw - 320px) / 1599));
   }
 
   .highlight-v5 {
     max-width: calc(150px + 100.28 * (100vw - 320px) / 1599);
     height: calc(50px + -44.07 * (100vw - 320px) / 1599);
-    -webkit-filter: blur(calc(100px + 50 * (100vw - 320px) / 1599));
-            filter: blur(calc(100px + 50 * (100vw - 320px) / 1599));
   }
 
   .news__img {

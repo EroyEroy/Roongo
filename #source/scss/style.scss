@@ -657,22 +657,22 @@ html{
 	.specialization__item + .specialization__item{
 		margin-left: 40px;
 	}
-	.highlight{
-		max-width: calc(150px + (374 - 150) * ((100vw - 320px) / (1919 - 320)));
-		height: calc(150px + (307 - 150) * ((100vw - 320px) / (1919 - 320)));
-	}
-	.highlight-v2{
-		max-width: calc(150px + (571 - 150) * ((100vw - 320px) / (1919 - 320)));
-		height: calc(150px + (307 - 150) * ((100vw - 320px) / (1919 - 320)));
-	}
-	.highlight-v4{
-		max-width: calc(150px + (619.23 - 150) * ((100vw - 320px) / (1919 - 320)));
-		height: calc(150px + (358.46 - 150) * ((100vw - 320px) / (1919 - 320)));
-	}
-	.highlight-v5{
-		max-width: calc(150px + (250.28 - 150) * ((100vw - 320px) / (1919 - 320)));
-		height: calc(50px + (105.93 - 150) * ((100vw - 320px) / (1919 - 320)));
-	}
+	// .highlight{
+	// 	max-width: calc(150px + (374 - 150) * ((100vw - 320px) / (1919 - 320)));
+	// 	height: calc(150px + (307 - 150) * ((100vw - 320px) / (1919 - 320)));
+	// }
+	// .highlight-v2{
+	// 	max-width: calc(150px + (571 - 150) * ((100vw - 320px) / (1919 - 320)));
+	// 	height: calc(150px + (307 - 150) * ((100vw - 320px) / (1919 - 320)));
+	// }
+	// .highlight-v4{
+	// 	max-width: calc(150px + (619.23 - 150) * ((100vw - 320px) / (1919 - 320)));
+	// 	height: calc(150px + (358.46 - 150) * ((100vw - 320px) / (1919 - 320)));
+	// }
+	// .highlight-v5{
+	// 	max-width: calc(150px + (250.28 - 150) * ((100vw - 320px) / (1919 - 320)));
+	// 	height: calc(50px + (105.93 - 150) * ((100vw - 320px) / (1919 - 320)));
+	// }
 	.news__img{
 		margin-left: calc(0px + (54 - 0) * ((100vw - 320px) / (1919 - 320)));
 		margin-right: calc(20px + (110 - 20) * ((100vw - 320px) / (1919 - 320)));
@@ -758,6 +758,22 @@ html{
 	}
 }
 @media (max-width: 479px) {
+	.highlight{
+		max-width: 150px;
+		height: 150px;
+	}
+	.highlight-v2{
+		max-width: 150px;
+		height: 150px;
+	}
+	.highlight-v4{
+		max-width: 150px;
+		height: 150px;
+	}
+	.highlight-v5{
+		max-width: 150px;
+		height: 50px;
+	}
 	.start__subtitle{
 		margin-bottom: 20px;
 	}

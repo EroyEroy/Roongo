@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Регистрация</title>
+</head>
+
+<body class="reg-body">
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<div class="header__inner">
+					<a class="logo" href="index.html">
+						<img class="logo__img" src="img/logo.svg" alt="logo">
+					</a>
+					<!-- <a class="header__link" href="##">
+						Личный кабинет
+					</a> -->
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<div class="sign-popup-bg">
+				<div class="sign-popup-bg__inner">
+					<form class="sign-popup" action="" novalidate>
+						<div class="sign-popup-register">
+							<label class="sign-popup__label">
+								<p class="sign-popup__text">Ваше имя*</p>
+								<input class="sign-popup__input valInput inputName" type="text" required>
+							</label>
+							<label class="sign-popup__label">
+								<p class="sign-popup__text">Введите Email*</p>
+								<input class="sign-popup__input valInput inputEmail" type="email" required>
+							</label>
+							<label class="sign-popup__label">
+								<p class="sign-popup__text">Ваш номер телефона*</p>
+								<input class="sign-popup__input valInput inputPhone" type="tel" required>
+							</label>
+							<label class="sign-popup__label">
+								<p class="sign-popup__text">Направление ассортимента?*</p>
+								<div class="dropdown">
+									<div class="select">
+										<span class="selected valInput inputAssortment"></span>
+										<div class="caret">
+											<img src="img/caret.svg" alt="caret">
+										</div>
+									</div>
+									<ul class="menu">
+										<li>Авто</li>
+										<li>Мотоциклы</li>
+										<li>Снегоходы</li>
+										<li>Квадроциклы и мотовездеходы</li>
+										<li>Скутеры</li>
+										<li>Вело</li>
+									</ul>
+								</div>
+							</label>
+							<label class="sign-popup__label">
+								<p class="sign-popup__text">Сколько товаров планируете продавать?*</p>
+								<div class="dropdown">
+									<div class="select">
+										<span class="selected valInput inputProducts"></span>
+										<div class="caret">
+											<img src="img/caret.svg" alt="caret">
+										</div>
+									</div>
+									<ul class="menu">
+										<li>1-50</li>
+										<li>51-150</li>
+										<li>101-200</li>
+										<li>201-300</li>
+										<li>более 300</li>
+									</ul>
+								</div>
+							</label>
+							<button class="sign-popup__submit" type="submit">
+								Войти
+							</button>
+						</div>
+					</form>
+					<div class="notification">
+						Вы успешно зарегистрировались. Мы сообщим Вам, когда всё будет готово.
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+
+</html>

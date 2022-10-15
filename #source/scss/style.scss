@@ -106,6 +106,7 @@ html{
 	position: absolute;
 	filter: blur(150px);
 	border-radius: 50%;
+	will-change: transform;
 }
 .highlight-v2{
 	width: 100%;
@@ -115,6 +116,7 @@ html{
 	transform: rotate(-22.9deg);
 	filter: blur(150px);
 	border-radius: 50%;
+	will-change: transform;
 }
 .highlight-v3{
 	width: 100%;
@@ -124,6 +126,7 @@ html{
 	height: 307px;
 	filter: blur(150px);
 	border-radius: 50%;
+	will-change: transform;
 }
 .highlight-v4{
 	width: 100%;
@@ -132,6 +135,7 @@ html{
 	background: radial-gradient(35.36% 35.35% at 50% 50%, rgba(220, 140, 61, 0.5) 0%, rgba(231, 149, 70, 0.5) 50%, rgba(248, 166, 83, 0.5) 100%);
 	filter: blur(50px);
 	border-radius: 50%;
+	will-change: transform;
 }
 .highlight-v5{
 	width: 100%;
@@ -140,6 +144,7 @@ html{
 	border-radius: 50%;
 	background: #EA7500;
 	filter: blur(50px);
+	will-change: transform;
 }
 // стилизация header
 .header{
@@ -731,6 +736,8 @@ html{
 	opacity: 0;
 	display: none;
 	z-index: 1;
+	max-height: 250px;
+	overflow-y: auto;
 	li{
 		font-size: 16px;
 		padding: 15px 15px 15px 20px;
@@ -881,10 +888,10 @@ html{
 		padding: calc(10px + (40 - 10) * ((100vw - 320px) / (1920 - 320)));
 	}
 	.delivery__title{
-		font-size: calc(16px + (20 - 16) * ((100vw - 320px) / (1920 - 320)));
+		font-size: calc(16px + (50 - 16) * ((100vw - 320px) / (1920 - 320)));
 	}
 	.delivery__subtitle{
-		font-size: calc(12px + (14 - 12) * ((100vw - 320px) / (1920 - 320)));
+		font-size: calc(12px + (35 - 12) * ((100vw - 320px) / (1920 - 320)));
 	}
 	.shipment__inner{
 		padding: calc(30px + (70 - 30) * ((100vw - 320px) / (1920 - 320))) 0 calc(30px + (86 - 30) * ((100vw - 320px) / (1920 - 320))) 0;

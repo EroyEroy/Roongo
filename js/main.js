@@ -32,6 +32,13 @@ window.addEventListener('load', () => {
 				option.classList.add('active')
 			});
 		});
+		document.addEventListener('click', (e) => {
+			if (menu.classList.contains('menu-open') && !menu.contains(e.target) && !select.contains(e.target)) {
+				select.classList.remove('select-clicked');
+				caret.classList.remove('caret-rotate');
+				menu.classList.remove('menu-open');
+			}
+		});
 	});
 	// валидация
 	let form = document.querySelector('.sign-popup'),

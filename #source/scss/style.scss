@@ -301,7 +301,7 @@ html{
 .specialization__title{
 	margin-top: -84px;
 	line-height: 150%;
-	max-width: 1200px;
+	max-width: 1412px;
 	margin: -84px auto 70px auto;
 	text-align: center;
 }
@@ -343,7 +343,10 @@ wbr{
 	max-width: 70px;
 }
 .specialization__card-img{
-	margin-bottom: 20px;
+	margin-bottom: 50px;
+}
+.specialization__card-text{
+	flex-grow: 1;
 }
 .specialization__card-text,
 .shipment__card-text{
@@ -376,7 +379,7 @@ wbr{
 .delivery__subtitle{
 	font-size: 35px;
 	line-height: 150%;
-	max-width: 577px;
+	max-width: 658px;
 }
 // стилизация shipment
 .shipment{
@@ -418,7 +421,6 @@ wbr{
 }
 .shipment__card{
 	border: 1px solid #EA7500;
-	border-radius: 0;
 	background: none;
 }
 // стилизация details
@@ -572,7 +574,7 @@ wbr{
 }
 .news__highlight-1{
 	position: absolute;
-	left: 0;
+	right: -10%;
 	bottom: 20%;
 	z-index: -1;
 }
@@ -617,7 +619,7 @@ wbr{
 }
 .manage__highlight-1{
 	position: absolute;
-	right: 0;
+	left: -10%;
 	bottom: 0;
 	z-index: -1;
 }
